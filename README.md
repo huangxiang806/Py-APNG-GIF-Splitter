@@ -21,20 +21,25 @@ This script requires the **Pillow** library to handle image processing.
 
 ```bash
 pip install Pillow
+```
 
 
-📖 How to Use
-1. Interactive Mode
+## 📖 How to Use
+
+### 1. Interactive Mode2. Command Line Mode
 Simply run the script and follow the on-screen prompts to enter your paths:
+```bash
 python gif_apng_extractor.py
-
-2. Command Line Mode
+```
+### 2. Command Line Mode
 Pass the input and output directories as arguments for faster processing:
+```bash
 python gif_apng_extractor.py [input_directory] [output_directory]
+```
 
-📂 Output Structure Example
+## 📂 Output Structure Example
 After processing, your frames will be organized as follows:
-output/
+```output/
 ├── explosion_effect/
 │   ├── 1.png
 │   ├── 2.png
@@ -42,6 +47,6 @@ output/
 └── loading_spinner/
     ├── 1.png
     └── ...
-
-⚖️ License
+```
+## ⚖️ License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute!
